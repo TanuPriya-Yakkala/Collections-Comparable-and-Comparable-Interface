@@ -1,4 +1,4 @@
-class Student implements Comparable<Student>{  
+class Student implements Comparable<Comparables>{  
 int rollno;  
 String name;  
 int age;  
@@ -8,7 +8,7 @@ this.name=name;
 this.age=age;  
 }  
   
-public int compareTo(Student st){  
+public int compareTo(Comparables st){  
 if(age==st.age)  
 return 0;  
 else if(age>st.age)  
